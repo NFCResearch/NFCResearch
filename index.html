@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Container for everything -->
+    <div class="container">
+
+        <!-- University Logo -->
+        <div class="logo-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/University_of_Nebraska%E2%80%93Lincoln_logo.svg/640px-University_of_Nebraska%E2%80%93Lincoln_logo.svg.png" alt="University Logo" class="university-logo">
+        </div>
+
+        <!-- Title, Authors, and Abstract in a Card -->
+        <div class="card">
+            <h1>Unlocking the Secrets of ID Cards: Exploring Wireless Magic of
+                Near Field Communication with Software-Defined Radios</h1>
+
+            <!-- Authors -->
+            <p class="authors">
+                <strong>Authors:</strong> Dickson Akuoko Sarpong and Hongzhi Guo ∗
+            </p>
+
+            <!-- Abstract -->
+            <p class="abstract">
+                This research demo provides a comprehensive, hands-on introduction to Near Field Communication (NFC) 
+                technology and Software Defined Radio (SDR) for signal capture and analysis. They are designed to equip students with 
+                practical skills in wireless communication. The demo guides users through the setup of hardware and software tools, including an
+                 Arduino Uno, PN5180 NFC reader, and SDR# software for capturing and processing NFC signals. Students explore NFC communication protocols 
+                 at the 13.56 MHz frequency, gaining a deep understanding of both reader-to-card and card-to-reader interactions. The demo details the wiring 
+                 and configuration of NFC systems and the use of Python for signal analysis. Through step-by-step instructions, students learn to capture, visualize, 
+                 and interpret NFC signals, applying signal decoding and protocol analysis techniques. With a focus on practical application, the demo emphasizes using 
+                 SDR to capture real-time NFC communications, enhancing students' understanding of analog and digital signal processing. This demo serves as a critical 
+                 learning tool for those interested in wireless technologies, providing insights into the design, capture, and analysis of NFC systems with broader applications
+                  in mobile payments, access control, and other contactless systems.
+            </p>
+        </div>
+
+        <!-- PDF Viewer -->
+        <h2>Research Paper</h2>
+        <iframe src="researchPaperNFCwithSDR.pdf" class="pdf-viewer" frameborder="0"></iframe>
+        <a href="researchPaperNFCwithSDR.pdf" download="Unlocking_the_Secrets_of_ID_Cards_Exploring_Wireless_Magic_of_Near_Field_Communication_with_Software_Defined_Radios.pdf" class="btn">Download Paper PDF</a>
+
+        <!-- PPTX Presentation -->
+        <h2>Presentation</h2>
+        <iframe src="https://view.officeapps.live.com/op/embed.aspx?src=path_to_your_pptx.pptx" class="ppt-viewer"></iframe>
+        <a href="path_to_your_pptx.pptx" download="Research_Presentation.pptx" class="btn">Download Research Presentation</a>
+
+        <!-- Video Display -->
+        <h2>Video</h2>
+        <video class="video-display" controls>
+            <source src="path_to_your_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
+</html>

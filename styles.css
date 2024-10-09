@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Updated to Times New Roman */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px #d00000; /* The '1a' is the HEX representation of 10% opacity */
+    border-radius: 8px;
+    text-align: center; /* Center-align text and content inside the container */
+    margin: 20px auto;
+}
+
+/* University Logo */
+.logo-container {
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+.university-logo {
+    width: 150px; /* Adjust the size of the logo as needed */
+    height: auto;
+}
+
+/* Card Layout for Title, Authors, and Abstract */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center; /* Center-align text inside the card */
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+}
+
+/* Centered Headings and Text in Card */
+.card h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card .authors {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card .abstract {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+/* Headings */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Authors Section */
+.authors {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Abstract */
+.abstract {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Abstract */
+.card .abstract {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: justify; /* Justify the text to align both sides */
+}
+
+
+/* PDF Viewer */
+.pdf-viewer {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* PPT Viewer */
+.ppt-viewer {
+    width: 100%;
+    height: 480px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Video */
+.video-display {
+    width: 100%;
+    height: 480px;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d00000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #001226;
+}
