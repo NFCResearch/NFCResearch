@@ -63,6 +63,25 @@ body {
     margin-bottom: 20px;
 }
 
+/* Responsive YouTube iframe container */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 1280px; /* Maximum width for larger screens */
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 */
+    height: 0;
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 
 /* Headings */
 h1, h2 {
