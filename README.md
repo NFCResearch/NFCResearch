@@ -1,6 +1,11 @@
 # NFC Tag Response Analysis and Prediction
-
 This repository contains files and resources for research on NFC tag response analysis and prediction using the ISO15693 protocol. The goal of the project is to improve the reliability and security of NFC tag communication by leveraging machine learning and software-defined radio techniques.
+
+The repository includes two (2) main categories of materials:
+
+- Educational materials, including laboratory manuals and lecture slides, which are intended for teaching, training, and learning purposes in NFC and SDR-based signal analysis. These resources focus on fundamental concepts, system setup, signal capture, and basic signal interpretation.
+
+- Research materials, including experimental scripts, data processing pipelines, and machine learning models, which support scientific investigation into NFC tag behavior, response modeling, and authentication-oriented security analysis.
 
 ---
 
@@ -8,6 +13,7 @@ This repository contains files and resources for research on NFC tag response an
 
 - [Overview](#overview)
 - [Folder Structure](#folder-structure)
+  - [Educational Materials for NFC](#educational-materials-for-nfc)
   - [Machine Learning](#machine_learning)
   - [Script](#script)
     - [MATLAB](#matlab)
