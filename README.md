@@ -138,7 +138,7 @@ This folder contains Jupyter notebooks for training and evaluating various machi
 - Please visit https://github.com/adam-kamrath/ISO15693_Application to run the application in MATLAB and access all the source code.
   
 ### Contacts
-- `dakuokosarpong2@unl.edu`
+- `dakuokosarpong2@nebraska.edu`
 
 ### Citing ISO15693-NFC-FINGERPRINT
 - If you use `ISO15693-NFC-FINGERPRINT` in any scientific publication, we would appreciate citations to the following paper.
